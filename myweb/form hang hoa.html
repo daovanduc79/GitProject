@@ -4,71 +4,146 @@
     <meta charset="UTF-8">
     <title>Form hàng hóa</title>
 </head>
-<body><h1>Thông tin Laptop</h1>
-    <form action="#">
-        <fieldset>
-         Hãng sản xuất :<br>
-            <input type="radio" name="manufactuter">ASUS<br>
-            <input type="radio" name="manufactuter">ACER<br>
-            <input type="radio" name="manufactuter">APPLE<br>
-            <input type="radio" name="manufactuter">DELL<br>
-            <input type="radio" name="manufactuter">HP<br>
-            <input type="radio" name="manufactuter">LENOVO<br>
-         Tên máy : <input type="text"><br>
-         Giá : <input type="text"><br>
-         CPU :<br>
-        <select>
-            <option value="Intel">Core i3</option>
-            <option value="Intel">Core i5</option>
-            <option value="Intel">Core i7</option>
-        </select><br>
-        <select>
-            <option>3500U</option>
-            <option>8250U</option>
-            <option>10110U</option>
-            <option>8300H</option>
-        </select><br>
-        Hệ điều hành : <br> <select>
-            <option>Windows 10 SL 64 Bit</option>
-            <option>Windows 10 SL 32 Bit</option>
-            <option>Mac OS</option>
-        </select><br>
-        RAM :<br> <select>
-            <option>2GB</option>
-            <option>4GB</option>
-            <option>8GB</option>
-            <option>16GB</option>
-        </select><br>
-        Ổ cứng :<br> <select>
-            <option>HDD 1TB</option>
-            <option>HDD 512GB</option>
-            <option>SSD 120GB</option>
-            <option>SSD 280GB</option>
-            <option>SSD 512GB</option>
-        </select><br>
-        Card đồ họa :<br> <select>
-            <option>NVidia MX130 2GB</option>
-            <option>AMD Radeon Vega 8</option>
-            <option>Intel HD 620</option>
-            <option>Nvidia Quadro M1000</option>
-            <option>AMD FirePro W5130M</option>
-            <option>Card rời GTX 1050Ti</option>
-            <option>Intel UHD graphics 620</option>
-        </select><br>
-        Màn hình :<br> <select>
-            <option>13.3 Inch Full HD</option>
-            <option>14 Inch Full HD</option>
-            <option>15.6 Inch Full HD</option>
-        </select><br>
-        Khe RAM : <input type="radio">1
-                    <input type="radio">2<br>
-        Cổng kết nối : <input type="text"> <br>
-        Kích thước : <input type="text" value="...(mm)X...(mm)X...(mm)X"><br>
-        Trọng lượng : <input type="text">
-
-        </fieldset>
-
+<body>
+    <form>
+        <table align="right">
+            <tr>
+                <th>Đăng nhập hệ thống</th>
+            </tr>
+            <tr>
+                <td>Tên đăng nhập</td>
+                <td><input type="text" name="yourname"></td>
+            </tr>
+            <tr>
+                <td>Mật khẩu</td>
+                <td><input type="password"></td>
+            </tr>
+            <tr>
+                <td><input type="reset" value="Reset"></td>
+                <td><input type="submit" value="LOGIN"></td>
+            </tr>
+            <tr>
+                <td colspan="4"><input type="button" value="Quên mật khẩu?"></td>
+                <td><input type="hidden" value="Bó tay bạn ơi"></td>
+            </tr>
+        </table>
     </form>
-
+    <form action="#">
+        <table cellpadding="5" cellspacing="5" align="center">
+            <tr><th colspan="4"><h3>Thông tin Laptop</h3></th></tr>
+            <tr>
+                <td colspan="4"><input type="file" value="Ảnh mẫu"></td>
+            </tr>
+            <tr>
+                <td>Hãng sản xuất</td>
+                <td><input type="radio" name="manufactuter">ASUS</td>
+                <td><input type="radio" name="manufactuter">ACER</td>
+                <td><input type="radio" name="manufactuter">APPLE</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><input type="radio" name="manufactuter">DELL</td>
+                <td><input type="radio" name="manufactuter">HP</td>
+                <td><input type="radio" name="manufactuter">LENOVO</td>
+            </tr>
+            <tr>
+                <td>Ngày sản xuất</td>
+                <td colspan="3"><input type="date"></td>
+            </tr>
+            <tr>
+                <td>Tên máy</td>
+                <td colspan="3"><input type="text"></td>
+            </tr>
+            <tr>
+                <td>Giá</td>
+                <td colspan="3"><input type="text"></td>
+            </tr>
+            <tr>
+                <td>CPU</td>
+                <td><input type="checkbox">core i3</td>
+                <td><input type="checkbox">core i5</td>
+                <td><input type="checkbox">core i7</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><input type="checkbox">3500U</td>
+                <td><input type="checkbox">8130U</td>
+                <td><input type="checkbox">10110U</td>
+            </tr>
+            <tr>
+                <td>Hệ điều hành</td>
+                <td colspan="3"><select>
+                    <option>Windows 10 SL 64 Bit</option>
+                    <option>Windows 10 SL 32 Bit</option>
+                    <option>Mac OS</option>
+                </td>
+            </tr>
+            <tr>
+                <td>RAM</td>
+                <td colspan="3"><select>
+                    <option>2GB</option>
+                    <option>4GB</option>
+                    <option>8GB</option>
+                    <option>16GB</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Ổ cứng</td>
+                <td colspan="3"><select>
+                    <option>HDD 1TB</option>
+                    <option>HDD 512GB</option>
+                    <option>SSD 120GB</option>
+                    <option>SSD 280GB</option>
+                    <option>SSD 512GB</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Card đồ họa</td>
+                <td colspan="3"><select>
+                    <option>NVidia MX130 2GB</option>
+                    <option>AMD Radeon Vega 8</option>
+                    <option>Intel HD 620</option>
+                    <option>Nvidia Quadro M1000</option>
+                    <option>AMD FirePro W5130M</option>
+                    <option>Card rời GTX 1050Ti</option>
+                    <option>Intel UHD graphics 620</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Màn hình</td>
+                <td colspan="3"><select>
+                    <option>13.3 Inch Full HD</option>
+                    <option>14 Inch Full HD</option>
+                    <option>15.6 Inch Full HD</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Khe RAM</td>
+                <td><input type="radio">0</td>
+                <td><input type="radio">1</td>
+                <td><input type="radio">2</td>
+            </tr>
+            <tr>
+                <td>Cổng kết nối</td>
+                <td colspan="3"><input type="text" name="USB"></td>
+            </tr>
+            <tr>
+                <td>Kích thước</td>
+                <td colspan="3"><input type="text" value="...(mm)X...(mm)X...(mm)X"></td>
+            </tr>
+            <tr>
+                <td>Trọng lượng</td>
+                <td colspan="3"><input type="text"></td>
+            </tr>
+            <tr align="center">
+                <td colspan="2"><input type="submit" value="Kiểm hàng"></td>
+                <td colspan="2"><input type="reset" value="Nhập lại"></td>
+            </tr>
+        </table>
+    </form>
 </body>
 </html>

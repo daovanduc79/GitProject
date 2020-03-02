@@ -3,12 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <title>Form hàng hóa</title>
+    <style>
+        #myForm{
+            display: none;
+        }
+
+    </style>
+    <script>
+        function showForm(){
+            document.getElementById("myForm").style.display = "block";
+
+        }
+        function closeForm(){
+            document.getElementById("myForm").style.display = "none";
+
+        }
+    </script>
 </head>
 <body>
-    <form>
+    <form action="#" method="post" id="myForm">
         <table align="right">
             <tr>
-                <th>Đăng nhập hệ thống</th>
+                <th><h3>Đăng nhập hệ thống</h3></th>
             </tr>
             <tr>
                 <td>Tên đăng nhập</td>
@@ -23,12 +39,14 @@
                 <td><input type="submit" value="LOGIN"></td>
             </tr>
             <tr>
-                <td colspan="4"><input type="button" value="Quên mật khẩu?"></td>
+                <td colspan="3"><input type="button" value="Quên mật khẩu?"></td>
+                <td><textarea name="description"></textarea></td>
                 <td><input type="hidden" value="Bó tay bạn ơi"></td>
             </tr>
+            <tr><td><input type="button" value="Đóng" onclick="closeForm()"></td></tr>
         </table>
     </form>
-    <form action="#">
+    <form action="##" id="myForm1">
         <table cellpadding="5" cellspacing="5" align="center">
             <tr><th colspan="4"><h3>Thông tin Laptop</h3></th></tr>
             <tr>
@@ -123,9 +141,9 @@
             </tr>
             <tr>
                 <td>Khe RAM</td>
-                <td><input type="radio">0</td>
-                <td><input type="radio">1</td>
-                <td><input type="radio">2</td>
+                <td><input type="radio" name="ram">0</td>
+                <td><input type="radio" name="ram">1</td>
+                <td><input type="radio" name="ram">2</td>
             </tr>
             <tr>
                 <td>Cổng kết nối</td>
@@ -143,6 +161,7 @@
                 <td colspan="2"><input type="submit" value="Kiểm hàng"></td>
                 <td colspan="2"><input type="reset" value="Nhập lại"></td>
             </tr>
+            <tr><td><input type="button" value="Login" onclick="showForm()"></td></tr>
         </table>
     </form>
 </body>

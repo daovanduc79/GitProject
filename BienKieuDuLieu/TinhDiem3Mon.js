@@ -1,0 +1,14 @@
+let inputPysical;
+    inputPysical = prompt('Enter the Physical');
+let inputChemistry;
+    inputChemistry = prompt('Enter the Chemistry');
+let inputBiological;
+    inputBiological = prompt('Enter the Biological');
+let P = parseFloat(inputPysical);
+let C = parseFloat(inputChemistry);
+let B = parseFloat(inputBiological);
+let medium = (P+C+B)/3;
+let total = P+C+B;
+document.write('Điểm trung bình là : ' + medium);
+document.write('<br>');
+document.write('Tổng điểm là : ' + total);

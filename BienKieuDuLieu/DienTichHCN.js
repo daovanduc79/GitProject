@@ -1,4 +1,5 @@
-let inputWidth ;
+
+let inputWidth;
     inputWidth = prompt('Enter the Width');
 let inputHeight ;
     inputHeight = prompt('Enter the Height');

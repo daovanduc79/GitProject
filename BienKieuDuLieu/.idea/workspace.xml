@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c8822d56-6bc8-4680-975c-89ba6268d737" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/thuchanh1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C0220H2/test.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaScript/demotrenlop.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaScript/hienthidaura.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaScript/my-script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaScript/taonhung.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../baimoi/form hang hoa.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../baimoi/hello world.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../baitapform/Lịch.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../baitapform/Tạo form lấy survey khách hàng.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../baitapform/bancovua.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../baitapform/formdangkynguoidung.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../baitapform/search.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../baitapform/simpleform.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../baitapform/tablesimple.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../baitapform/thoigianbieu.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../baitapform/thoikhoabieu.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../baitapform/đăng ký học viên.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1Ye6RP43LTmMXxcOLRCZ9qlK1YK" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../JavaScript/demotrenlop.html" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c8822d56-6bc8-4680-975c-89ba6268d737" name="Default Changelist" comment="" />
+      <created>1583290703255</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1583290703255</updated>
+      <workItem from="1583290704611" duration="2558000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1583292195032">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1583292195032" />
+  </component>
+</project>

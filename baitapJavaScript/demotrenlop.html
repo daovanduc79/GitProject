@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        function helloSomeone(){
+            let fullName=prompt('nhập họ và tên');
+            alert("Xin chào"+ fullName);
+        }
+        function calSun() {
+            let x = prompt('x=');
+            x= Number.parseFloat(x);
+            let y = prompt('y=');
+            y= Number.parseFloat(y);
+            
+            document.write('x+y=' +(x+y));
+        }
+    </script>
+
+
+</head>
+<body onload="alert('trang da duoc tai')">
+
+<button onclick="helloSomeone()">Nhập họ tên</button>
+<button onclick="confirm('bạn có thực sự muốn đóng cửa sổ này không')">Đóng</button>
+<button onclick="calSun()">Tinh trang</button>
+
+</body>
+</html>

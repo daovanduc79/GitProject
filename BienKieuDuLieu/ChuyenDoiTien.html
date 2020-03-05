@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Chuyển đổi tiền</title>
+</head>
+<body>
+
+<form>
+    <table cellspacing="20" align="center" cellpadding="1">
+        <tr>
+            <th>Amount</th>
+            <th>From Currency</th>
+            <th>To Currency</th>
+        </tr>
+        <tr>
+            <td><input type ="text" id ="number" value ="0"></td>
+            <td>
+                <select style = "width: 100px" id ="from">
+                    <option value ="23000">VNĐ</option>
+                    <option value ="1">USD</option>
+                </select>
+            </td>
+            <td>
+                <select style ="width: 100px" id ="to">
+                    <option value ="1">USD</option>
+                    <option value ="23000">VNĐ</option>
+                </select>
+            </td>
+            <td><input type="button" onclick="myScript(this.value)" value="convert"></td>
+        </tr>
+        <tr>
+        </tr>
+    </table>
+    <p id= "result" align="center" style="color: blue"></p>
+</form>
+<script>
+    function myScript(operation) {
+        let number = document.getElementById("number").value;
+        let from = document.getElementById("from").value;
+        let to = document.getElementById("to").value;
+        let money = ( number * to ) / from;
+        let element = document.getElementById('result');
+        element.innerHTML = "Số tiền là : " + money;
+    }
+</script>
+</body>
+</html>

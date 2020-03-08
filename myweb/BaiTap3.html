@@ -7,10 +7,8 @@
         function KTso() {
             let a, b, c;
             a = Number.parseFloat(prompt("Nhập cạnh a : "));
-            b = prompt("Nhập cạnh b : ");
-            b = Number.parseFloat(b);
-            c = prompt("Nhập cạnh c : ");
-            c = Number.parseFloat(c);
+            b = Number.parseFloat(prompt("Nhập cạnh b : "));
+            c = Number.parseFloat(prompt("Nhập cạnh c : "));
             if ((a + b > c) && (b + c > a) && (c + a > b)) {
                 alert('a,b,c là ba cạnh của một tam giác ABC');
                 document.write('Chu vi tam giác ABC là : ' + (a + b + c));
@@ -21,40 +19,25 @@
                 document.write('<br>');
                 //console.log('kiểm tra')
 
-                if ((a * a + b * b == c * c) || (b * b + c * c == a * a) || (c * c + a * a == b * b))
+                if ((a * a + b * b === c * c) || (b * b + c * c === a * a) || (c * c + a * a === b * b))
                 {
                     document.write('ABC là tam giác vuông');
                     document.write('<br>')
                 }
-                else {
-                    document.write('ABC KHÔNG là tam giác vuông');
-                    document.write('<br>')
-                }
-
-                if (a == b || b == c || c == a) {
-                    document.write('ABC là tam giác cân');
-                    document.write('<br>')
-                }
-                else  {
-                    document.write('ABC KHÔNG là tam giác cân');
-                    document.write('<br>')
-                }
-
-                if (a == b && a == c) {
+                if (a === b && a === c) {
                     document.write('ABC là tam giác đều');
                     document.write('<br>')
                 }
-                else {
-                    document.write('ABC KHÔNG là tam giác đều');
-                    document.write('<br>')
+                else if (a === b || b === c || c === a) {
+                        document.write('ABC là tam giác cân');
+                        document.write('<br>')
                 }
-
             }
             else alert('a,b,c KHÔNG là ba cạnh của một tam giác')
         }
     </script>
 </head>
 <body>
-<button onclick="KTso()">Nhập vào</button>
+<button onclick="KTso()" style="background-color: blue">Nhập vào</button>
 </body>
 </html>

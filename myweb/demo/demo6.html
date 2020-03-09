@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        function doc1So(n)//đọc số có 1 chữ sô
+         {
+            switch (n) {
+                case 0 : return " Không " ;
+                case 1 : return " Một " ;
+                case 2 : return " Hai " ;
+                case 3 : return " Ba " ;
+                case 4 : return " Bốn " ;
+                case 5 : return " Năm " ;
+                case 6 : return " Sáu " ;
+                case 7 : return " Bảy " ;
+                case 8 : return " Tám " ;
+                case 9 : return " Chín " ;
+                default : return "Không biết !" ;
+            }
+
+         }
+        function doc3So(n) //đọc số có ba chữ số
+        {
+            let tram = Math.floor( n / 100 );// Math.round():làm tròn , Math.floor():số sàn , Math.ceil(): số trần
+            let chuc = Math.floor( n / 10) % 10 ; // 123 / 10 = 12 % 10 = 2
+            let donVi = n % 10 ; // 123 / 10 = 3
+            let str = "" ;
+            str += doc1So(tram) + " trăm " ;
+            if ( chuc == 0 ) {
+                str += " linh " ;
+            }
+            else str += doc1So(chuc) + " mươi " ;
+            str += doc1So(donVi) ;
+            return str ;
+
+        }
+        function docSo() {
+            let n ;
+            n = prompt("Nhập một số có 1 chữ số") ;
+            n = Number.parseInt(n) ;
+            alert(doc3So(n)) ;
+        }
+    </script>
+</head>
+<body>
+<button onclick="docSo()">Nhập số</button>
+
+</body>
+</html>

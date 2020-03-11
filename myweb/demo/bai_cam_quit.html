@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Cam quít</title>
+</head>
+<body>
+
+<script>
+    let cam ;
+    let quit ;
+    for ( cam = 1 ; cam < 10 ; cam++ )
+        for ( quit = 0 ; quit < 17 ; quit++ )
+            if ( cam + quit === 17 && cam * 10 + quit * 3 === 100 ) {
+                document.write(" cam " + cam ) ;
+                document.write(" quit " + quit ) ;
+            }
+</script>
+</body>
+</html>

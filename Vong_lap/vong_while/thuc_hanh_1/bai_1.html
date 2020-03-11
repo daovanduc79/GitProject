@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Nhập số</title>
+</head>
+<body>
+<script>
+    let number = 0 ;
+    let total = 0 ;
+    total = Number.parseInt(total) ;
+    while ( number != -1) {
+        number = prompt("Enter the number : ");
+        number = parseInt( number ) ;
+        document.write( number ) ;
+        document.write("<br>") ;
+        total = parseInt( total ) ;
+        total = total + number ;
+    }
+    document.write("Tổng các số được nhập vào là : " + total ) ;
+</script>
+</body>
+</html>

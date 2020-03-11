@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bảng cửu chương</title>
+</head>
+<body>
+<script>
+    let sout, i, j;
+    sout = "<table border='1' width='500' cellspacing='0' cellpadding='3' align='center'>";
+    i = 1;
+    j = 1 ;
+    while (i <= 9) {
+        sout = sout + "<tr align='center'>";
+        while (j <= 9) {
+            sout = sout + "<td align='center' style='background-color: yellow'>" + j +'*'+ i + '=' + i * j + "</td>";
+            j++;
+        }
+        sout = sout + "</tr>";
+        j = 1;
+        i++;
+    }
+    sout = sout + "</table>";
+    document.write(sout);
+</script>
+</body>
+</html>

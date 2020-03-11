@@ -9,7 +9,7 @@
 <script>
     let cam ;
     let quit ;
-    for ( cam = 1 ; cam < 10 ; cam++ )
+    for ( cam = 0 ; cam <= 10 ; cam++ )
         for ( quit = 0 ; quit < 17 ; quit++ )
             if ( cam + quit === 17 && cam * 10 + quit * 3 === 100 ) {
                 document.write(" cam " + cam ) ;

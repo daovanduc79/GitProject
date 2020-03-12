@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>hiển thị số nguyên tố </title>
+</head>
+<body>
+<h3>Nhập vào số số nguyên tố bạn muốn hiển thị</h3>
+<input type="text" id="input">
+<button onclick="check()" style="background-color: blue">Kiểm tra</button>
+<div id="result" style="color: red"></div>
+<script>
+    function check() {
+        let number = parseInt(document.getElementById("input").value);
+        let count = 0;
+        let out = "" ;
+        for (let n = 2; count < number; n++) {
+            if (checkPrimeNumber(n)) {
+                count++;
+                out = out + n + "<br>" ;
+            }
+        }
+        document.getElementById("result").innerHTML = out ;
+    }
+
+
+    function checkPrimeNumber(n) {
+        for (let i = 2; i <= Math.sqrt(n); i++) {
+            if (n % i === 0) {
+                return false
+            }
+        }
+        return true;
+    }
+</script>
+</body>
+</html>

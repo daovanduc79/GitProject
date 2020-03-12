@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form hàng hóa</title>
+    <style>
+        #myForm{
+            display: none;
+        }
+
+    </style>
+    <script>
+        function showForm(){
+            document.getElementById("myForm").style.display = "block";
+
+        }
+        function closeForm(){
+            document.getElementById("myForm").style.display = "none";
+
+        }
+    </script>
+</head>
+<body>
+    <form action="#" method="post" id="myForm">
+        <table align="right" style="color: blue">
+            <tr>
+                <th><h3>Đăng nhập hệ thống</h3></th>
+            </tr>
+            <tr>
+                <td>Tên đăng nhập</td>
+                <td><input type="text" name="yourname"></td>
+            </tr>
+            <tr>
+                <td>Mật khẩu</td>
+                <td><input type="password"></td>
+            </tr>
+            <tr>
+                <td><input type="reset" value="Reset"></td>
+                <td><input type="submit" value="LOGIN"></td>
+            </tr>
+            <tr>
+                <td colspan="3"><input type="button" value="Quên mật khẩu?"></td>
+                <td><textarea name="description"></textarea></td>
+                <td><input type="hidden" value="Bó tay bạn ơi"></td>
+            </tr>
+            <tr><td><input type="button" value="Đóng" onclick="closeForm()"></td></tr>
+        </table>
+    </form>
+    <form action="##" id="myForm1">
+        <table cellpadding="5" cellspacing="5" align="center" style="color: darkred">
+            <tr><th colspan="4"><h3>Thông tin Laptop</h3></th></tr>
+            <tr>
+                <td colspan="4"><input type="file" value="Ảnh mẫu"></td>
+            </tr>
+            <tr>
+                <td>Hãng sản xuất</td>
+                <td><input type="radio" name="manufactuter">ASUS</td>
+                <td><input type="radio" name="manufactuter">ACER</td>
+                <td><input type="radio" name="manufactuter">APPLE</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><input type="radio" name="manufactuter">DELL</td>
+                <td><input type="radio" name="manufactuter">HP</td>
+                <td><input type="radio" name="manufactuter">LENOVO</td>
+            </tr>
+            <tr>
+                <td>Ngày sản xuất</td>
+                <td colspan="3"><input type="date"></td>
+            </tr>
+            <tr>
+                <td>Tên máy</td>
+                <td colspan="3"><input type="text"></td>
+            </tr>
+            <tr>
+                <td>Giá</td>
+                <td colspan="3"><input type="text"></td>
+            </tr>
+            <tr>
+                <td>CPU</td>
+                <td><input type="checkbox">core i3</td>
+                <td><input type="checkbox">core i5</td>
+                <td><input type="checkbox">core i7</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><input type="checkbox">3500U</td>
+                <td><input type="checkbox">8130U</td>
+                <td><input type="checkbox">10110U</td>
+            </tr>
+            <tr>
+                <td>Hệ điều hành</td>
+                <td colspan="3"><select>
+                    <option>Windows 10 SL 64 Bit</option>
+                    <option>Windows 10 SL 32 Bit</option>
+                    <option>Mac OS</option>
+                </td>
+            </tr>
+            <tr>
+                <td>RAM</td>
+                <td colspan="3"><select>
+                    <option>2GB</option>
+                    <option>4GB</option>
+                    <option>8GB</option>
+                    <option>16GB</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Ổ cứng</td>
+                <td colspan="3"><select>
+                    <option>HDD 1TB</option>
+                    <option>HDD 512GB</option>
+                    <option>SSD 120GB</option>
+                    <option>SSD 280GB</option>
+                    <option>SSD 512GB</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Card đồ họa</td>
+                <td colspan="3"><select>
+                    <option>NVidia MX130 2GB</option>
+                    <option>AMD Radeon Vega 8</option>
+                    <option>Intel HD 620</option>
+                    <option>Nvidia Quadro M1000</option>
+                    <option>AMD FirePro W5130M</option>
+                    <option>Card rời GTX 1050Ti</option>
+                    <option>Intel UHD graphics 620</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Màn hình</td>
+                <td colspan="3"><select>
+                    <option>13.3 Inch Full HD</option>
+                    <option>14 Inch Full HD</option>
+                    <option>15.6 Inch Full HD</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Khe RAM</td>
+                <td><input type="radio" name="ram">0</td>
+                <td><input type="radio" name="ram">1</td>
+                <td><input type="radio" name="ram">2</td>
+            </tr>
+            <tr>
+                <td>Cổng kết nối</td>
+                <td colspan="3"><input type="text" name="USB"></td>
+            </tr>
+            <tr>
+                <td>Kích thước</td>
+                <td colspan="3"><input type="text" value="...(mm)X...(mm)X...(mm)X"></td>
+            </tr>
+            <tr>
+                <td>Trọng lượng</td>
+                <td colspan="3"><input type="text"></td>
+            </tr>
+            <tr align="center">
+                <td colspan="2"><input type="submit" value="Kiểm hàng"></td>
+                <td colspan="2"><input type="reset" value="Nhập lại"></td>
+            </tr>
+            <tr><td><input type="button" value="Login" onclick="showForm()"></td></tr>
+        </table>
+    </form>
+</body>
+</html>

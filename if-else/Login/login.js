@@ -17,10 +17,10 @@ function login() {
     }
     else
     if ( name === '' ) {
-        alert('Vui lòng nhập tên đăng nhập !')
+        alert('Vui lòng nhập tài khoản !')
 
     }
     else {
-        alert('Tên đăng nhập không chính xác')
+        alert('Tài khoản không chính xác')
     }
 }

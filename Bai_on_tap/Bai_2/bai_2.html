@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tính tổng các số chẵn</title>
+</head>
+<body>
+
+<script>
+    let a = +prompt("Số bắt đầu : ");
+    let b = +prompt("Số kết thúc : ");
+    let tong = 0;
+    if (a <= b)
+        for (let i = a; i <= b; i++) {
+            if (i % 2 == 0)
+                tong += +i;
+
+        }
+    else
+        alert("Dãy không hợp lệ ")
+    alert("Tổng các số chẵn trong dãy (a,b) là : " + tong);
+</script>
+</body>
+</html>

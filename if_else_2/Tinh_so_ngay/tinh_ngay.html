@@ -5,13 +5,45 @@
     <title>Title</title>
 </head>
 <body>
-<form>
-    <input type="text">
-    <button>Tính số ngày</button>
-</form>
-<script>
-    function f() {
-
+<div>
+    <h3>Tính số ngày trong tháng</h3>
+    <select id="input">
+        <option value="1">Tháng 1</option>
+        <option value="2">Tháng 2</option>
+        <option value="3">Tháng 3</option>
+        <option value="4">Tháng 4</option>
+        <option value="5">Tháng 5</option>
+        <option value="6">Tháng 6</option>
+        <option value="7">Tháng 7</option>
+        <option value="8">Tháng 8</option>
+        <option value="9">Tháng 9</option>
+        <option value="10">Tháng 10</option>
+        <option value="11">Tháng 11</option>
+        <option value="12">Tháng 12</option>
+    </select>
+    <button onclick="checkNgay()" style="background-color: blue">Check</button>
+    <p id="result" style="color: red"></p>
+</div>
+<script type="text/javascript">
+    function checkNgay() {
+        let thang = Number(document.getElementById("input").value);
+        document.getElementById('result').innerHTML= (" Tháng " + thang + " có "+ (demNgay(thang)) + " ngày");
+    }
+    function demNgay(thang) {
+        switch (thang) {
+            case 1:
+            case 3:
+            case 5:
+            case 7:
+            case 8:
+            case 10:
+            case 12: return 31;
+            case 4:
+            case 6:
+            case 9:
+            case 11: return 30;
+            case 2: return " 28 hoặc 29 " ;
+        }
     }
 </script>
 </body>

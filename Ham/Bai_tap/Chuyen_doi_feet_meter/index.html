@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Chuyển đổi feet-Meter</title>
+    <link rel="stylesheet" href="css.css">
+</head>
+<body>
+<script src="js.js">
+</script>
+<table>
+    <tr>
+        <td colspan="4"><h1>Convert length Feet to Meter</h1></td>
+    </tr>
+    <tr>
+        <td><h3>Feet</h3></td>
+        <td><h3>Meter</h3></td>
+        <td><h3>Meter</h3></td>
+        <td><h3>Feet</h3></td>
+    </tr>
+    <tr>
+        <td><input type="number" oninput="feetToMeter(this.value)" onchange="feetToMeter(this.value)"></td>
+        <td><span id="meterout"></span></td>
+        <td><input type="number" oninput="meterToFeet(this.value)" onchange="meterToFeet(this.value)"></td>
+        <td><span id="feetout"></span></td>
+    </tr>
+
+
+</table>
+</body>
+</html>

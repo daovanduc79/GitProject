@@ -1,0 +1,17 @@
+td {
+    width: 300px;
+    height: 70px;
+    background-color: dodgerblue;
+    text-align: center;
+}
+table {
+    border: black;
+    text-align: center;
+}
+h3 {
+    color: red;
+}
+input {
+    color: black;
+    background-color: darkkhaki;
+}

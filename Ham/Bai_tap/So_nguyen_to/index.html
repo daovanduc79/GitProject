@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let number = +prompt("Nhập vào một sô nguyên :") ;
+
+    function isPrime() {
+        if (number < 0) {
+            alert("Số không hợp lệ") ;
+        }
+        switch (number) {
+            case 2 :
+            case 3 :
+                return true ;
+            case 1 :
+                return false ;
+            default :
+                for (let i = 2 ; i <= Math.sqrt(number) ; i++) {
+                    if (number % i === 0)
+                        return false ;
+                    else
+                        return true ;
+                }
+        }
+    }
+    if (isPrime(number)) {
+        alert(number + " là số nguyên tố")
+    }
+    else {
+        alert(number + " KHÔNG là số nguyên tố")
+    }
+
+</script>
+
+</body>
+</html>

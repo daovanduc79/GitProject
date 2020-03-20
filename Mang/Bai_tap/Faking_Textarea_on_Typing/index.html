@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Faking text area</title>
+    <style>
+        h2 {
+            color: red;
+            text-align: center;
+        }
+        div , textarea{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+<div>
+    <h2>Nhắm mắt và viết lời bạn muốn nói tôi sẽ trả lời</h2>
+    <form name="f">
+        <textarea name="txt" onkeydown="typeText();" cols="40" rows="10"></textarea>
+    </form>
+</div>
+</body>
+<script>
+    let a = [];
+    let n = '';
+    a[1] = 'Y';
+    a[2] = 'Ê';
+    a[3] = 'U';
+    a[4] = ' ';
+    a[5] = 'Đ';
+    a[6] = 'Ứ';
+    a[7] = 'C';
+    a[8] = ' ';
+    a[9] = 'N';
+    a[10] = 'H';
+    a[11] = 'Ấ';
+    a[12] = 'T';
+    a[13] = ' ';
+    a[14] = 'T';
+    a[15] = 'R';
+    a[16] = 'Ê';
+    a[17] = 'N';
+    a[18] = ' ';
+    a[19] = 'Đ';
+    a[20] = 'Ờ';
+    a[21] = 'I';
+    a[22] = ' ';
+    a[23] = '!';
+    a[24] = ' ';
+
+    function typeText() {
+        let  t = document.f.txt.value;
+        let j = t.length;
+        if (j > 0) {
+            for (let i = 1; i <= j; i++) {
+
+                n = n + a[i];
+                if (i === 24) {
+                    t = "";
+                    n = '';
+                }
+            }
+        }
+        document.f.txt.value = n;
+        n = '';
+        setTimeout('typeText()', 1);
+    }
+
+</script>
+</html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài 2 phần luyện tập 2</title>
+</head>
+<body>
+<script>
+    function myCircle() {
+        let r = +prompt("Enter the radius : ");
+        let C = 0 , S = 0 ;
+        if (r < 0)
+            alert("The radius entered is not valid !!");
+        else {
+            C = 2 * r * Math.PI;
+            S = r * r * Math.PI;
+            document.write("The radius of the circle is : " + r + "<br>");
+            document.write("The circumference of the circle is : " + C + "<br>");
+            document.write("The area of the circle is : " + S + "<br>");
+        }
+    }
+    myCircle();
+</script>
+</body>
+</html>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài 9 phần luyện tập 2</title>
+</head>
+<body>
+<script>
+    let arr = ['a','b','c','c','w','s','f','s','b','5','5','a','7','1','s'];
+    let input = prompt("Enter a characters ");
+    function checkArray(input) {
+
+        let count = 0;
+        for (let i = 0 ; i<arr.length;i++){
+            if (input === arr[i])
+                count += 1;
+        }
+        return count;
+    }
+    if (checkArray(input) > 0)
+        alert("Characters " + input + " appear " + checkArray(input) + " times");
+    else
+        alert("-1");
+</script>
+</body>
+</html>

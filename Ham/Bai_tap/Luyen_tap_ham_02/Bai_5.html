@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài 5 phần luyện tập 2</title>
+</head>
+<body>
+<script>
+    function minNumber() {
+        let number1 = +prompt("Enter the number one :");
+        let number2 = +prompt("Enter the number two :");
+        let number3 = +prompt("Enter the number three :");
+        let min = number1;
+        if (min > number2) {
+            min = number2;
+            if (min > number3)
+                min = number3;
+        } else {
+            if (min > number3)
+                min = number3;
+        }
+        alert("Min of three number " + number1 + " " + number2 + " " + number3 + " is : min = " + min);
+    }
+    minNumber();
+</script>
+</body>
+</html>

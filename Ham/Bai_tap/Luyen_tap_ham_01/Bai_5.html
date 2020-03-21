@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài 5 phần luyện tập 1</title>
+</head>
+<body>
+<script>
+    let star = ['Polaris', 'Aldebaran', 'Deneb', 'Vega', 'Altair', 'Dubhe', 'Regulus'];
+    let constellation = ['Ursa Minor', 'Tarurus', 'Cygnus', 'Lyra', 'Aquila', 'Ursa Major', 'Leo'];
+    let name = "" ;
+    function checkStar() {
+        let enterStar = prompt("Enter name of star :");
+
+        let i = 0 ;
+        while (i < star.length){
+            if (enterStar === star[i]){
+                name += constellation[i];
+                return name ;
+            }
+            i++;
+        }
+    }
+    checkStar();
+    console.log(name);
+    if (name === "")
+        alert("There is no such star !!!");
+    else
+        alert("Name of constellation is : " + name);
+</script>
+</body>
+</html>

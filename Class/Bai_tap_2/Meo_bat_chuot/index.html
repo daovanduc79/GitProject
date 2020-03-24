@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Mèo ăn thịt chuột</title>
+</head>
+<body>
+<div id="game1"></div>
+<div id="game2"></div>
+<script>
+    class Run {
+        constructor(image, top, left, size, weight) {
+            this.image = image;
+            this.top = top;
+            this.left = left;
+            this.size = size;
+            this.weight = weight;
+        };
+
+        getHeroElement() {
+            return '<img width="' + this.size + '"' +
+                ' height="' + this.size + '"' +
+                ' src="' + this.image + '"' +
+                ' style="top: ' + this.top + 'px; left:' + this.left + 'px;position:absolute;" />';
+        };
+
+        moveRight(speed) {
+            this.left += speed;
+        }
+
+    }
+
+    let mouse = new Run('https://nguoinoitieng.tv/images/nnt/96/0/bbkd.jpg', 50, 1000, 100);
+
+    let cat = new Run('https://cdn3.tgdd.vn/Products/Images/1783/71235/NaughtyKitties-icon.png', 50,10, 100);
+
+    function start() {
+        if (mouse.weight !== 0) {
+            if (mouse.left < window.innerWidth - mouse.size) {
+                mouse.moveRight(2);
+                killMouse();
+            }
+            if (cat.left < window.innerWidth - cat.size) {
+                cat.moveRight(10);
+                killMouse();
+            }
+            document.getElementById('game1').innerHTML = mouse.getHeroElement();
+            document.getElementById('game2').innerHTML = cat.getHeroElement();
+            setTimeout(start, 300);
+        }
+        else alert('game over');
+    }
+
+    function killMouse() {
+        if (mouse.left - cat.left < 500) {
+            cat.moveRight(50);
+            if (mouse.left - cat.left < 20) {
+                cat.weight += mouse.weight;
+                mouse.weight = 0;
+                alert("cat kill mouse")
+            }
+        }
+
+    }
+
+    start();
+</script>
+</body>
+</html>

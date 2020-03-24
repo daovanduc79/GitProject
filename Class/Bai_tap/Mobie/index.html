@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="js.js"></script>
+    <link rel="stylesheet" href="css.css">
+</head>
+<body>
+<div class="mobile" id="iphone">
+    <div class="title-name" id="iphone-name">Mobile1</div>
+    <div class="inbox" id="iphone-inbox">Inbox</div>
+    <div class="outbox" id="iphone-outbox">Outbox</div>
+    <input class="msg" id="iphone-msg" placeholder="message...." oninput="mobile1.writeMsg(this.value)">
+    <button class="send" onclick="sendMess(mobile1,mobile2)">Send</button>
+</div>
+<div class="mobile" id="samsung">
+    <div class="title-name" id="samsung-name">Mobile2</div>
+    <div class="inbox" id="samsung-inbox">Inbox</div>
+    <div class="outbox" id="samsung-outbox">Outbox</div>
+    <input class="msg" id="samsung-msg" placeholder="message...." oninput="mobile2.writeMsg(this.value)">
+    <button class="send" onclick="sendMess(mobile2,mobile1)">Send</button>
+</div>
+</body>
+</html>

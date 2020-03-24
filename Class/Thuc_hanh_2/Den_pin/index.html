@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bật tắt đèn Pin</title>
+    <script>
+        class Battery {
+            constructor(energy) {
+                this.energy = energy;
+            }
+
+            checkEnergy() {
+                return (this.energy > 0) ? true : false;
+            }
+        }
+
+        class FlashLamp {
+            constructor(battery) {
+                this.battery = battery;
+            }
+
+            light() {
+                if (battery.checkEnergy()) {
+                    if (this.status) {
+                        alert('Lighting !!');
+                        battery.energy--;
+                    } else {
+                        alert('Not lighting !')
+                    }
+                } else {
+                    alert('Out of battery')
+                }
+            }
+
+            turnOn() {
+                this.status = true;
+            }
+
+            turnOff() {
+                this.status = false;
+            }
+
+        }
+
+        let battery = new Battery(100);
+        let flashLamp = new FlashLamp(battery);
+
+        let showBattery = function () {
+            document.getElementById("display").innerHTML = "Battery info : " +
+                battery.energy + "<br>";
+        };
+        let turnOnClick = function () {
+            flashLamp.turnOn();
+            flashLamp.light();
+            showBattery();
+        };
+        let turnOffClick = function () {
+            flashLamp.turnOff();
+            flashLamp.light();
+            showBattery();
+        };
+
+
+    </script>
+</head>
+<body>
+<button id="turn-on" onclick="turnOnClick()">On</button>
+<button id="turn-off" onclick="turnOffClick()">Off</button>
+<div id="display"></div>
+</body>
+</html>

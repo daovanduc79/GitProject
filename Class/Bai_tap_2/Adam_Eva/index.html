@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Câu chuyện Adam và Eva</title>
+    <script>
+        class Apple {
+            constructor(weight) {
+                this.weight = weight;
+            }
+
+            checkEmpty() {
+                return (this.weight > 0) ? true : false;
+            }
+        }
+
+        class Human {
+            constructor(name, gender, weight) {
+                this.name = name;
+                this.gender = gender;
+                this.weight = weight;
+            }
+
+            show() {
+                document.getElementById("display").innerHTML =
+                    'Name : ' + this.name + '<br>' +
+                    'Gender : ' + this.gender + '<br>' +
+                    'Weight : ' + this.weight + '<br>';
+            }
+
+            eat(apple) {
+                if (apple.checkEmpty()) {
+                    apple.weight--;
+                    this.weight++;
+                } else
+                    alert("Táo hết mất tiêu luôn !!");
+
+            }
+
+            say(content) {
+                alert(content);
+            }
+        }
+
+        let apple = new Apple(10);
+        let Adam = new Human('Adam', 'man', '70');
+        let Eva = new Human('Eva', 'woman', '55');
+
+        function AdamEatApple() {
+            Adam.show();
+            Adam.eat(apple);
+            Adam.say('Táo này chua quá :((')
+        }
+
+        function EvaEatApple() {
+            Eva.show();
+            Eva.eat(apple);
+            Eva.say('Táo ngon mà :))')
+        }
+
+    </script>
+</head>
+<body>
+<button onclick="AdamEatApple()">Adam</button>
+<button onclick="EvaEatApple()">Eva</button>
+<div id="display"></div>
+</body>
+</html>

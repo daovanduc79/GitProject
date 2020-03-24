@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Class mô tả hình chữ nhật</title>
+
+</head>
+<body>
+<canvas id="my_canvas" width="1000" height="500" style="border:1px solid #d3d3d3;"></canvas>
+<br>
+<div id="display"></div>
+<script>
+    class Rectangle {
+        constructor(length, width) {
+            this.dai = length;
+            this.rong = width;
+        }
+
+        countArea() {
+            return this.dai * this.rong;
+        }
+
+        countPerimeter() {
+            return (this.dai + this.rong) * 2;
+        }
+
+        show() {
+            let c = document.getElementById("my_canvas");
+            let ctx = c.getContext('2d');
+            ctx.moveTo(0, 0);
+            ctx.lineTo(this.dai, 0);
+            ctx.stroke();
+            ctx.moveTo(0, 0);
+            ctx.lineTo(0, this.rong);
+            ctx.stroke();
+            ctx.moveTo(this.dai, 0);
+            ctx.lineTo(this.dai, this.rong);
+            ctx.stroke();
+            ctx.moveTo(0, this.rong);
+            ctx.lineTo(this.dai, this.rong);
+            ctx.stroke();
+        }
+    }
+
+    let x = new Rectangle(500, 300);
+    x.show();
+    document.getElementById("display").innerHTML =
+        'Chu vi : ' + x.countPerimeter() + 'm' + '<br>' +
+        'Diện tích : ' + x.countArea() + 'm2' + '<br>';
+
+
+</script>
+</body>
+</html>

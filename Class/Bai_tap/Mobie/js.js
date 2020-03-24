@@ -27,8 +27,11 @@ class Mobile {
     }
 
     decreaseBattery() {
-        this.battery-- ;
-        console.log(this.battery) ;
+        if (this.battery > 0)
+            return this.battery--;
+        else
+            this.status = false;
+            return 0;
     }
 
     writeMsg(value) {
@@ -40,33 +43,71 @@ class Mobile {
     }
 
     sendMsg(mobile) {
-        mobile.receiveMsg(this.name,this.msg);
+        mobile.receiveMsg(this.name, this.msg);
         this.outbox.push(this.msg);
+    }
+
+    turnOn() {
+        return this.status = true;
+    }
+
+    turnOff() {
+        return this.status = false;
+    }
+
+    checkStatus() {
+        if (this.status) {
+            alert(this.name + " đã bật");
+        } else {
+            alert(this.name + " đã tắt");
+        }
     }
 }
 
 let mobile1 = new Mobile("Iphone");
 let mobile2 = new Mobile("SamSung");
-autoDecreaseBattery();
+let turn = 1;
 
-function autoDecreaseBattery() {
-        if (mobile1.battery > 0) {
-            setInterval(mobile1.decreaseBattery,3000)
+function clickHome(phone) {
+    if (phone.battery <= 0) {
+        phone.turnOff();
+        phone.checkStatus();
+    } else {
+        if (turn === 1) {
+            phone.turnOn();
+            phone.checkStatus();
+            turn = 2;
+        } else {
+            phone.turnOff();
+            phone.checkStatus();
+            turn = 1;
         }
+    }
 }
 
 function sendMess(m1, m2) {
-    m1.sendMsg(m2);
-    disPlayMess();
+
+    m1.decreaseBattery();
+    if (m1.status <= 0) {
+        alert(m1.name + " đã hết Pin")
+    } else {
+        m1.sendMsg(m2);
+        disPlayMess();
+    }
+
 
 }
+
 function disPlayMess() {
-    document.getElementById("iphone-inbox").innerHTML = mobile1.inbox;
+    document.getElementById("iphone-inbox").innerHTML = mobile1.inbox ;
     document.getElementById("iphone-outbox").innerHTML = mobile1.outbox;
     document.getElementById("samsung-inbox").innerHTML = mobile2.inbox;
     document.getElementById("samsung-outbox").innerHTML = mobile2.outbox;
     document.getElementById("iphone-msg").value = "";
     document.getElementById("samsung-msg").value = "";
+    document.getElementById("iphone-battery").innerHTML = mobile1.decreaseBattery() + '%';
+    document.getElementById("samsung-battery").innerHTML = mobile2.decreaseBattery() + '%';
+
 }
 
 

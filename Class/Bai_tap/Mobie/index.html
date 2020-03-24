@@ -2,24 +2,28 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Mô tả điện thoại</title>
     <script src="js.js"></script>
     <link rel="stylesheet" href="css.css">
 </head>
 <body>
 <div class="mobile" id="iphone">
-    <div class="title-name" id="iphone-name">Mobile1</div>
+    <div class="title-name" id="iphone-name">Iphone</div>
+    <div class="battery" id="iphone-battery"></div>
     <div class="inbox" id="iphone-inbox">Inbox</div>
     <div class="outbox" id="iphone-outbox">Outbox</div>
     <input class="msg" id="iphone-msg" placeholder="message...." oninput="mobile1.writeMsg(this.value)">
     <button class="send" onclick="sendMess(mobile1,mobile2)">Send</button>
+    <button class="home" onclick="clickHome(mobile1)">Home</button>
 </div>
 <div class="mobile" id="samsung">
-    <div class="title-name" id="samsung-name">Mobile2</div>
+    <div class="title-name" id="samsung-name">SamSung</div>
+    <div class="battery" id="samsung-battery"></div>
     <div class="inbox" id="samsung-inbox">Inbox</div>
     <div class="outbox" id="samsung-outbox">Outbox</div>
     <input class="msg" id="samsung-msg" placeholder="message...." oninput="mobile2.writeMsg(this.value)">
     <button class="send" onclick="sendMess(mobile2,mobile1)">Send</button>
+    <button class="home" onclick="clickHome(mobile2)">Home</button>
 </div>
 </body>
 </html>

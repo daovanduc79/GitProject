@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="28eab240-b462-4c29-a218-bbc39d819ea5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Bai_1/Bai_1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bai_1/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bai_2/Bai_2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bai_2/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bai_3/Bai_3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bai_3/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bai_4/Bai_4.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bai_4/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C0220H2/demo/demo10.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C0220H2/demo/demo14.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C0220H2/demo/demo16.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C0220H2/demo/demo8.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C0220H2/demo/demo9.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C0220H2/test/test.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Case_study/css/css.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Case_study/javaScript/archer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Case_study/javaScript/background.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Case_study/javaScript/border.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Case_study/javaScript/bullet.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Case_study/javaScript/const.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Case_study/javaScript/heart.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Case_study/javaScript/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Class/Bai_tap/Hinh_chu_nhat/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Class/Bai_tap/Mo_ta_Temperature/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Class/Bai_tap/Mobie/css.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Class/Bai_tap/Mobie/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Class/Bai_tap/Mobie/js.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Class/Bai_tap_2/Adam_Eva/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Class/Bai_tap_2/Cong_tac_bong_den/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Class/Bai_tap_2/Di_chuyen_doi_tuong/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Class/Bai_tap_2/Di_chuyen_doi_tuong/myjs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Class/Bai_tap_2/Meo_bat_chuot/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Class/Bai_tap_2/Phat_trien_caro/csss.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Class/Bai_tap_2/Phat_trien_caro/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Class/Bai_tap_2/Phat_trien_caro/js.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Class/Thuc_hanh/Date/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Class/Thuc_hanh/Date/js.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Class/Thuc_hanh/Hinh_tron/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Class/Thuc_hanh/funny/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Class/Thuc_hanh/funny/js.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Class/Thuc_hanh_2/Den_pin/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ham/Bai_tap/Chuyen_doi_feet_meter/css.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ham/Bai_tap/Chuyen_doi_feet_meter/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ham/Bai_tap/Chuyen_doi_feet_meter/js.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ham/Bai_tap/Luyen_tap_ham_01/Bai_1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ham/Bai_tap/Luyen_tap_ham_01/Bai_2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ham/Bai_tap/Luyen_tap_ham_01/Bai_3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ham/Bai_tap/Luyen_tap_ham_01/Bai_4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ham/Bai_tap/Luyen_tap_ham_01/Bai_5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ham/Bai_tap/Luyen_tap_ham_02/Bai_1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ham/Bai_tap/Luyen_tap_ham_02/Bai_2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ham/Bai_tap/Luyen_tap_ham_02/Bai_3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ham/Bai_tap/Luyen_tap_ham_02/Bai_4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ham/Bai_tap/Luyen_tap_ham_02/Bai_5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ham/Bai_tap/Luyen_tap_ham_02/Bai_6.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ham/Bai_tap/Luyen_tap_ham_02/Bai_7.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ham/Bai_tap/Luyen_tap_ham_02/Bai_8.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ham/Bai_tap/Luyen_tap_ham_02/Bai_9.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ham/Bai_tap/So_nguyen_to/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ham/Thuc_hanh/Chuyen_doi_nhiet_do/my_js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ham/Thuc_hanh/Tao_va_goi_ham/my_js.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ham/Thuc_hanh/Tao_va_goi_ham/myhtml.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ham/Thuc_hanh/Tim_Min_trong _mang/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ham/Thuc_hanh/Tim_Min_trong _mang/my_js.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Vong_lap/vong_do_while/thuc_hanh_1/bai_1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Vong_lap/vong_for/thuc_hanh_1/bai_1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Vong_lap/vong_for/thuc_hanh_1/bai_2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Vong_lap/vong_lap_long-nhau/Hien_thi_so_nguyen_to.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Vong_lap/vong_lap_long-nhau/bang_cuu_chuong.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Vong_lap/vong_lap_long-nhau/bang_so_for.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Vong_lap/vong_lap_long-nhau/bang_so_while.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Vong_lap/vong_while/thuc_hanh_1/bai_1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Vong_lap/vong_while/thuc_hanh_1/bai_2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../if-else/login/demo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../if-else/login/login.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../if-else/login/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../if-else/login/login.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../if_else_2/chi_so_BMi/BMI.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../if_else_2/su_kien_chuot/my_html.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../if_else_2/su_kien_chuot/my_js.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../if_else_2/su_kien_phim/my_html.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../if_else_2/tinh_so_ngay/tinh_ngay.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../if_else_2/ung_dung/do_you_love_me.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mang/Bai_tap/Co_caro_nang_cao/css.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mang/Bai_tap/Co_caro_nang_cao/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mang/Bai_tap/Co_caro_nang_cao/js.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mang/Bai_tap/Faking_Textarea_on_Typing/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mang/thuc_hanh/Ban_co_caro/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mang/thuc_hanh/Ban_co_caro/js.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled/hjdvc.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1Zq5abJ2GUX0pbhjvKFqbYYdEyH" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="28eab240-b462-4c29-a218-bbc39d819ea5" name="Default Changelist" comment="" />
+      <created>1585553847345</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1585553847345</updated>
+      <workItem from="1585553848725" duration="3881000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+</project>
